@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: 'Vollkorn', serif;
+  background-color: #114B53;
+  color: #fff;
+ padding: 30px 24px;
+  /* display: flex; */
+      /* justify-content: center; Horizontal */
+      /* align-items: center;     Vertikal */
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #114B53;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 1.5rem;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00B2B2;
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.home {
+  display: flex;
+  justify-content: center; /* Tengah secara horizontal */
+padding: 10rem 2rem;
+  position: relative;
+}
+
+.home .content {
+  text-align: left;
+  max-width: 600px;          /* Batas lebar agar tidak terlalu panjang */
+  width: 100%;               /* Biar fleksibel */
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+
+.highlight {
+  color: #2CA6A4;
+}
+
+.circle-deco {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #2CA6A4;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(50%, 50%);
+}
+
+.about {
+  display: flex;
+  justify-content: center; /* Tengah secara horizontal */
+  padding: 10rem 2rem;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 800px;
+  width: 100%;
+}
+
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* background: #fff; */
+  padding: 10px;
+}
+
+.about-content h2 {
+  color: #2CA6A4;
+  margin-bottom: 0.5rem;
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #000000;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* .portfolio-cards {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+} */
+
+.portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  /* Ini yang bikin isi kartu berada di tengah */
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+
+.card {
+  background: #eee;
+  color: #222;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 250px;
+}
+
+.card-image {
+  background: #2CA6A4;
+  height: 100px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card i {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.section-title {
+  color: #2CA6A4;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contact-form {
+ display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 2rem auto 0 auto; /* ⬅️ Tengah secara horizontal */
+  text-align: left; /* ⬅️ Form field tetap rata kiri */
+}
+
+.contact-form label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  font-family: 'Vollkorn', serif;
+}
+
+.contact-form button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: #2CA6A4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background: #238f8f;
+}
+
+.description {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
