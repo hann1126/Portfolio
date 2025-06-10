@@ -199,3 +199,33 @@ h1 {
   margin: 0 auto;
   text-align: center;
 }
+
+.buttons {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  background-color: #2CA6A4;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-right: 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #238f8f;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  border: 2px solid #2CA6A4;
+  color: #2CA6A4;
+}
+
+.btn.secondary:hover {
+  background-color: #2CA6A4;
+  color: white;
+}
